@@ -16,12 +16,12 @@ import time
 
 # Alpaca API credentials
 API_KEY = "PKNWZK2CTTZO5T8ZGEZV"
-API_SECRET = "G6oGiW8FupYU8aSwvODeuW4RK8faVJlj01QY5oMY"
+API_SECRET = "<secret>"
 client = StockHistoricalDataClient(API_KEY, API_SECRET)
 
 # Alpaca Trading API credentials
 TRADING_API_KEY = "PKNWZK2CTTZO5T8ZGEZV"
-TRADING_API_SECRET = "G6oGiW8FupYU8aSwvODeuW4RK8faVJlj01QY5oMY"
+TRADING_API_SECRET = "<secret>"
 trading_client = TradingClient(TRADING_API_KEY, TRADING_API_SECRET, paper=True)
 
 # Symbols to trade
